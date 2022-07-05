@@ -1,0 +1,36 @@
+{
+  "name": "js-native-block",
+  "version": "1.0.0",
+  "description": "js native block",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sanek05077@bitbucket.org/sanek05077/app_js.git"
+  },
+  "keywords": [
+    "js",
+    "block",
+    "javascript"
+  ],
+  "author": "Aleksandr Lichko",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sanek05077/app_js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "webpack": "4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "3.1.14"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
